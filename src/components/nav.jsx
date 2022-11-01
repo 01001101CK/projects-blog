@@ -14,10 +14,11 @@ export default function Nav() {
             </div>
             <div className='navCenter'>
                 <ul className='navList'>
-                    <li className='navListItem'>Mind Garden</li>
-                    <li className='navListItem'>About</li>
-                    <li className='navListItem'>Write</li>
-                    <li className='navListItem'>Meditation</li>
+                    <li className='navListItem'>HOME</li>
+                    <li className='navListItem'>ABOUT</li>
+                    <li className='navListItem'>WRITE</li>
+                    <li className='navListItem'>MEDITATION</li>
+                    <li className='navListItem'>RESOURCES</li>
                 </ul>
             </div>
             <div className='navRight'>
