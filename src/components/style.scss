@@ -139,13 +139,47 @@
 }
 
 .post {
+    display: flex;
+    align-items: center;
     width: 80%;
-    margin: 100px 25px 50px 25px;
+    margin: 25px 50px 50px 50px;
+    border: 0;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+
+
+    .postContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .postName {
+            font-family: 'Varela', sans-serif;
+        }
+
+        .postAuthor {
+            font-family: 'Amatic SC', cursive;
+            font-size: 25px;
+        }
+
+    }
+
+    .postInfo {
+        font-family: 'Varela', sans-serif;
+        color: #444;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+    }
 
     .postImg {
         width: 30%;
         object-fit: cover;
         border-radius: 5px;
+        align-items: center;
+        margin-right: 20px;
     }
 
 }

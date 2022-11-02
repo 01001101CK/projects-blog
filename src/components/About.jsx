@@ -17,11 +17,16 @@ export default function About() {
                     src="https://s.w.org/images/core/emoji/14.0.0/svg/1f44b.svg"></img>
                     My name is Yufa. I am a aspiring Software Engineer focusing on protecting users’ mental health and accessibility.
                     my personal journey as an immigrant, HR practitioner and meditation teacher have shaped my mission to foster and build environments where everyone can thrive.
+                    <br />
+                    <br />
                     Fun Facts:
-                    - I am passionate about learning new things and always looking for ways to nurture my inner growth.
-                    - I bring order, peace, and calm to complex, unpredictable, sometimes stressful people-centric environments.
                 </p>
+                <ul>
+                    <li>I am passionate about learning new things and always looking for ways to nurture my inner growth.</li>
+                    <li>I bring order, peace, and calm to complex, unpredictable, sometimes stressful people-centric environments.</li>
+                </ul>
             </div>
+            <hr />
         </div>
     )
 }

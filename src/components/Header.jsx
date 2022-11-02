@@ -8,7 +8,7 @@ export default function Header() {
             </div>
             <img
                 className='headerImg'
-                src='https://www.themasterpicks.com/wp-content/uploads/2019/12/Screenshot-at-Dec-26-15-39-21.png'
+                src='https://trendland.com/wp-content/uploads/2019/01/mondrian-bento-box-food-still-life-lenovo-thinkpad-yum-tang.jpg'
                 alt="Bento picture"
             ></img>
         </div>
