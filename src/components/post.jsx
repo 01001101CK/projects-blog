@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 
 export default function post() {
@@ -10,7 +11,9 @@ export default function post() {
             />
             <div className='postContent'>
                 <span className='postName'>
-                    <strong>How can mindfulness training help companies?</strong>
+                    <strong>
+                        <Link className='link' to='/post/:postId'>How can mindfulness training help companies?</Link>
+                    </strong>
                 </span>
                 <br />
                 <span className='postAuthor'>Author: Yufa</span>
@@ -30,6 +33,6 @@ export default function post() {
 
                 </p>
             </div>
-        </div>
+        </div >
     )
 }

@@ -1,5 +1,6 @@
 import './style.scss'
 import logo from '../../Assets/logo.png'
+import { Link } from 'react-router-dom'
 
 export default function Nav() {
     return (
@@ -14,9 +15,15 @@ export default function Nav() {
             </div>
             <div className='navCenter'>
                 <ul className='navList'>
-                    <li className='navListItem'>HOME</li>
-                    <li className='navListItem'>ABOUT</li>
-                    <li className='navListItem'>WRITE</li>
+                    <li className='navListItem'>
+                        <Link className='link' to='/'>HOME</Link>
+                    </li>
+                    <li className='navListItem'>
+                        <Link className='link' to='/'>ABOUT</Link>
+                    </li>
+                    <li className='navListItem'>
+                        <Link className='link' to='/write'>WRITE</Link>
+                    </li>
                     <a href="https://www.pauseandthrive.xyz/" className="meditation-page" target="_blank">
                         <li className='navListItem'>MEDITATION</li>
                     </a>
