@@ -5,7 +5,7 @@
 .nav {
     width: 100%;
     height: 75px;
-    background-color: #eae6ff;
+    background-color: white;
     position: sticky;
     top: 0;
     display: flex;
@@ -32,17 +32,7 @@
         }
 
         .social-icon:hover {
-            color: #fff;
-
-            &:before {
-                transform: scaleY(1);
-                opacity: 1;
-            }
-
-            &:after {
-                transform: scaleY(1);
-                opacity: 1;
-            }
+            color: #f0b82a;
         }
     }
 
@@ -63,17 +53,11 @@
             }
 
             .navListItem:hover {
-                color: #fff;
+                color: #f0b82a;
+            }
 
-                &:before {
-                    transform: scaleY(1);
-                    opacity: 1;
-                }
-
-                &:after {
-                    transform: scaleY(1);
-                    opacity: 1;
-                }
+            .meditation-page {
+                text-decoration: none;
             }
         }
     }
@@ -99,5 +83,53 @@
         width: 100%;
         margin-top: 35px;
         object-fit: cover;
+    }
+}
+
+.home {
+    display: flex;
+}
+
+.posts {
+    flex: 70%;
+}
+
+.sideAbout {
+    display: flex;
+    flex-direction: column;
+    flex: 30%;
+    margin: 20px 5px 20px 10px;
+    padding-bottom: 30px;
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+    align-content: center;
+    font-family: 'Lora', serif;
+    padding: 5px;
+
+    .sideAboutTitle {
+        display: flex;
+        margin-top: 5px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        justify-content: center;
+    }
+
+    .selfie {
+        display: flex;
+        width: 60%;
+        margin-left: 100px;
+    }
+
+    .emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1.5em !important;
+        width: 2em !important;
+        margin: 0 0.07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
     }
 }

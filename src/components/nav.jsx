@@ -17,7 +17,9 @@ export default function Nav() {
                     <li className='navListItem'>HOME</li>
                     <li className='navListItem'>ABOUT</li>
                     <li className='navListItem'>WRITE</li>
-                    <li className='navListItem'>MEDITATION</li>
+                    <a href="https://www.pauseandthrive.xyz/" className="meditation-page" target="_blank">
+                        <li className='navListItem'>MEDITATION</li>
+                    </a>
                     <li className='navListItem'>RESOURCES</li>
                 </ul>
             </div>
