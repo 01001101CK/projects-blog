@@ -1,18 +1,23 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom'
 
 
 export default function post({ post }) {
-    { console.log(post) }
+    // { console.log(post) }
     return (
         <div className="post">
-            <img className='postImg'
-                src='https://gopher.hey.com/1200x0,q85,sENtDqqZLQ9CKrevknoVzAF_LyqvmhcziDF9nzEDnCuw=/https://mcusercontent.com/25c33bdcf7d6a4a5939b1ae9a/images/8b8f0c4b-56cc-94f6-9b6f-424ee35f7f06.jpg'
-                alt='postImg'
-            />
+            {post.picture && (
+                <img className='postImg'
+                    src={post.picture}
+                    alt='postImg'
+                />
+            )}
             <div className='postContent'>
-                <span className='postName'>
-                    {post.title}
-                </span>
+                <Link className="link" to={`/post/${post._id}`}>
+                    <span className='postName'>
+                        {post.title}
+                    </span>
+                </Link>
                 <br />
                 <span className='postAuthor'>Author: Yufa</span>
                 <br />

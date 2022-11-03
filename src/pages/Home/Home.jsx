@@ -5,12 +5,16 @@ import Posts from '../../components/Posts.jsx'
 import About from '../../components/About.jsx'
 import axios from "axios"
 
+let info;
+
 
 export default function Home() {
     const [posts, setPosts] = useState([]);
     useEffect(() => {
         const postsData = async () => {
             const res = await axios.get('http://localhost:8000/api/posts')
+            console.log(res)
+            info = res.data
             setPosts(res.data)
         }
         postsData()
