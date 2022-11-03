@@ -7,7 +7,7 @@ export default function About() {
             <div className='sideAboutItem'>
                 <p className='sideAboutTitle'>ABOUT ME</p>
                 <img className='selfie' src={Selfie} alt='Picture of Me'></img>
-                <blockquote class="wp-block-quote">
+                <blockquote className="wp-block-quote">
                     <p>“So plant your own gardens and decorate your own soul,
                         instead of waiting for someone to bring you flowers.”</p>
                     <cite>— Jorge Luis Borges</cite>
