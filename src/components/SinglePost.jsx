@@ -17,7 +17,7 @@ export default function SinglePost() {
             for (let i = 0; i < getPost.data.length; i++) {
                 if (getPost.data[i]._id === path) info = getPost.data[i];
             }
-            console.log(info)
+            // console.log(info)
             setPost(info)
         }
         getSinglePost()
@@ -25,11 +25,8 @@ export default function SinglePost() {
     return (
         <div className='singlePost'>
             <div className='singlePostContainer'>
-                {post.picture && (
-                    <img src={post.picture}
-                        alt="Post Image" className="singlePostImg" />
-
-                )}
+                <img className="singlePostImg" src='https://gopher.hey.com/1200x0,q85,sKHBU78d9FGtpdLISnZJYOv3f7sOTTwNC4Rp0mSATF8U=/https://mcusercontent.com/25c33bdcf7d6a4a5939b1ae9a/images/946f9a2e-51ad-42d4-434a-2e80848ef538.jpg'
+                    alt="Post Image" />
                 <h1 className="singlePostTitle">
                     {post.title}
                     <div className="singlePostEdit">

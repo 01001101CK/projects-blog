@@ -259,13 +259,14 @@
         margin-left: 200px;
         display: flex;
         align-items: center;
-        position: relative;
+        flex-wrap: wrap;
     }
 
     .writeAdd {
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-wrap: wrap;
         font-size: 50px;
         color: #444;
         cursor: pointer;
@@ -274,8 +275,15 @@
     .writeInput {
         font-size: 35px;
         border: none;
-        width: 70%;
+        width: 75%;
+
     }
+
+    .title {
+        width: 75%;
+    }
+
+    .content {}
 
     .writeInput:focus {
         outline: none;
