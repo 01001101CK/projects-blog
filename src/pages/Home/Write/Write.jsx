@@ -15,8 +15,8 @@ export default function Write() {
         try {
             const res = await axios.post('http://localhost:8000/api/posts', newPost, { headers: { "Content-Type": "application/json" } });
             // console.log(res)
-            window.location.replace('http://localhost:8080/post' + res.data._id)
-        } catch (err) { }
+            window.location.replace('http://localhost:8080/post/' + res.data._id)
+        } catch (err) { res.status(500).json(err) }
     }
 
     return (

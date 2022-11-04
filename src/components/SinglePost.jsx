@@ -22,6 +22,15 @@ export default function SinglePost() {
         }
         getSinglePost()
     }, [path])
+
+    const handleDelete = async () => {
+        try {
+            await axios.delete('http://localhost:8000/api/posts/' + path);
+            window.location.replace('/')
+        } catch (err) {
+            res.status(500).json(err)
+        }
+    }
     return (
         <div className='singlePost'>
             <div className='singlePostContainer'>
@@ -31,7 +40,7 @@ export default function SinglePost() {
                     {post.title}
                     <div className="singlePostEdit">
                         <i className="singlePostIcon edit fi fi-rr-edit"></i>
-                        <i className="singlePostIcon delete fi-rs-trash"></i>
+                        <i className="singlePostIcon delete fi-rs-trash" onClick={handleDelete}></i>
                     </div>
                 </h1>
                 <div className="singlePostInfo">

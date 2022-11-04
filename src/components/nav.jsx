@@ -10,7 +10,10 @@ export default function Nav() {
                     <i className="fi fi-brands-linkedin"></i>
                 </a>
                 <a href="https://twitter.com/yufa_li" className="social-icon si-rounded si-small si-twitter" target="_blank">
-                    <i className="fi fi-brands-twitter"></i>
+                    <i className="social-icon fi fi-brands-twitter"></i>
+                </a>
+                <a href="https://github.com/01001101CK" className="social-icon si-rounded si-small si-twitter" target="_blank">
+                    <i className="fi fi-brands-github"></i>
                 </a>
             </div>
             <div className='navCenter'>
@@ -26,6 +29,9 @@ export default function Nav() {
                     </li>
                     <a href="https://www.pauseandthrive.xyz/" className="meditation-page" target="_blank">
                         <li className='navListItem'>MEDITATION</li>
+                    </a>
+                    <a href="https://bonni.io/about" className="meditation-page" target="_blank">
+                        <li className='navListItem'>RECRUITING</li>
                     </a>
                     <li className='navListItem'>RESOURCES</li>
                 </ul>

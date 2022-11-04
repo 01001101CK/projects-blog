@@ -15,7 +15,7 @@ export default function About() {
                 <br></br>
                 <p>Hi Friends! <img draggable="false" role="img" className="emoji" alt="👋"
                     src="https://s.w.org/images/core/emoji/14.0.0/svg/1f44b.svg"></img>
-                    My name is Yufa. I am a aspiring Software Engineer focusing on protecting users’ mental health and accessibility.
+                    My name is Yufa. I am a aspiring Software Engineer focusing on protecting users’ mental health and advocating accessibility.
                     my personal journey as an immigrant, HR practitioner and meditation teacher have shaped my mission to foster and build environments where everyone can thrive.
                     <br />
                     <br />
@@ -24,6 +24,7 @@ export default function About() {
                 <ul>
                     <li>I am passionate about learning new things and always looking for ways to nurture my inner growth.</li>
                     <li>I bring order, peace, and calm to complex, unpredictable, sometimes stressful people-centric environments.</li>
+                    <li>My Gallup Strengths: Relator, Maximizer, Adaptability, Intellection and Self Assurance</li>
                 </ul>
             </div>
             <hr />
