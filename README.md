@@ -14,5 +14,5 @@ Here is a repo for [the backend](https://github.com/01001101CK/projects-blog-bac
 ## Technologies:
 This project was built utilizing a combination of React, Node.js, Express, PostgreSQL and Webpack.
 
-## Demo (Mobile First Design)
+## Demo
 <img width="2220" alt="Screen Shot 2022-12-26 at 12 25 01 PM" src="https://user-images.githubusercontent.com/112290188/209583995-44ed2e18-5730-4871-8212-5477e6e2a418.png">
